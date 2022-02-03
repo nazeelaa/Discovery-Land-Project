@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>my page</title>
+<style>
+    .boxone{
+        width: 50vw;
+        height: 30vh;
+        border: 1px solid black;
+        position: relative;
+        left: 500px;
+        top: 200px;
+        display: flex;
+        align-items: center;
+       
+
+
+    }
+    .boxchild{
+        height:80% ;
+        width: 40%;
+        border: 1px solid red;
+        z-index: 14;
+        
+        background-color: black;
+
+    }
+    .boxchildsmall{
+        height: 60%;
+        width: 30%;
+        border: 1px solid green;
+        z-index: 11;
+        position: relative;
+        right: 190px;
+        background-color: chartreuse;
+    }
+    .boxchildsmallgrey{
+        height: 50%;
+        width: 20%;
+        background-color: grey;
+        position: relative;
+        right: 50px;
+        top: 50px;
+    }
+</style>
+</head>
+<body>
+<div class="boxone">
+    <div class="boxchild"></div>
+    <div class="boxchildsmallgrey"></div>
+    <div class="boxchildsmall"></div>
+  
+</div>
+    
+</body>
+</html>

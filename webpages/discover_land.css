@@ -1,0 +1,181 @@
+.topbox
+{
+    
+   width: 100%;
+   height: 70%;
+
+}
+#topboxid{
+    width: 100%;
+    height: 100%;
+}
+.header-heading-sub{
+    width: 60%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    
+    position: absolute;
+    top:5%;
+    left:10%;
+    color: white;
+    
+}
+
+.header-heading-link{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    position: absolute;
+    top:5%;
+    left: 30%;
+   font-size:large;
+   
+
+}
+.gallarytext{
+    position: relative;
+    top: 180%;
+    left: 30%;
+    
+ width: 30%;
+ height: 30%;
+ 
+ color: white;
+ font-size: 30px;
+    
+
+}
+
+.middlebox
+{
+   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.midimageone
+{
+    
+    width: 33.3%;
+    height: 40%;
+    
+}
+.imagesgallery
+{
+    height: 270px;
+    width: 499.9px;
+
+}
+
+.midimagetwo
+{
+
+    width: 33.3%;
+    height: 40%;   
+}
+.midimagethree
+{
+    
+    width: 33.3%;
+    height: 40%;   
+}
+.midimagefour
+{
+    
+    width: 33.3%;
+    height: 40%;   
+}
+
+.midimagefive
+{
+
+    width: 33.3%;
+    height: 40%;   
+}
+
+.midimagesix
+{
+    
+    width: 33.3%;
+    height: 40%;   
+}
+
+.bottombox
+{
+    
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:darkcyan;
+}
+.bottomboxone
+{
+    
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+.logo
+{
+    border: 1px solid black;
+    position: relative;
+    top:20px;
+    left: 300px;
+    width: 60px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 60px;
+    height: 50px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.bottomboxtwo
+{
+   
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bottomboxthree
+{
+    
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bottomboxfour
+{
+    
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

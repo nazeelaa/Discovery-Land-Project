@@ -1,0 +1,289 @@
+.DiscoverYourworld{
+    width: 100%;
+    height: 110vh;
+    /* border: 1px solid black; */
+    object-position: center;
+    border: 1px solid black;
+    overflow: hidden;
+    object-fit: cover;   
+}
+
+.vid_play{
+    position: relative;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header-heading-sub{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    top: 5%;
+    left:30%;
+    color: white;
+}
+
+.header-heading-link{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 5%;
+    left:30%;
+   font-size:large;
+
+}
+
+.OurWorld{
+    width: 100%;
+    height: 125vh;
+    /* border: 1PX solid black; */
+    display: flex;
+}
+.OurWorldtext{
+    width: 40%;
+    height: 50%;
+    /* background-color: turquoise; */
+    margin: 1% 7%;
+
+    flex-direction: row;
+    font-size: 20px;
+  
+
+
+
+}
+.OurWorldtextImage{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(17, 53, 49); */
+    margin: 1% 7%;
+    display: flex;
+    position: relative;
+    top:40%;
+
+
+}
+.OurWorldImage
+{
+    width: 50%;
+    height: 100%;
+    /* background-color: purple; */
+    margin: 1% 7%;
+
+
+}
+#imageId{
+    width: 100%;
+    height: 90%;
+
+}
+
+.maindiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.226);
+
+   }
+.globe{
+    width:57%;
+    height: 100%;
+    z-index: 0;
+}
+.blackbox{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    position: relative;
+    top:30%;
+    right: 5%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.imagebox{
+    width: 40%;
+    height: 100%;
+    background-color: brown;
+    position: relative;
+    bottom: 30%;
+    left:55%;
+
+
+}
+#imgid{
+    width: 100%;
+    height: 100%;
+
+}
+#slide1{
+    width: 100%;
+    height: 100%;
+
+}
+#slideinner{
+    width: 100%;
+    height: 100%;
+}
+
+.blackbox-buttons{
+    position: relative;
+    top: 10%;
+    left: 10%;
+
+}
+.icons{
+    width: 50%;
+    height: 15%;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    left:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.icon-blackbox{
+    width: 5%;
+    height: 5%;
+}
+.blackboxtext{
+    color: white;
+    position: relative;
+    top:30%;
+    left:10%;
+    font-size: 30px;
+}
+.blackboxtextcity{
+    color: white;
+    position: relative;
+    top:30%;
+    left:10%;
+    font-size: 40px;
+
+}
+.Ammenities{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+
+}
+#buttonId{
+    width: 35%;
+    height: 10%;
+    position: relative;
+    bottom:50%;
+    left: 25%;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+
+}
+.Experience{
+   width: 33.3%;
+   height: 100%;
+   
+   
+
+}
+.Wellness{
+    width: 33.3%;
+    height: 100%;
+   
+    
+
+ }
+ .Lifestyle{
+    width: 33.3%;
+    height: 100%;
+    
+    
+
+ }
+
+ .footerbox{
+    position: absolute;
+    top: 450%; 
+    width: 100%;
+    height: 90%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerboxLogo{
+    
+    width: 30%;
+    height:50%;
+    /* background-color:darkblue; */
+    display: flex;
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+    align-items: center;
+    
+}
+#logo{
+    position: relative;
+    left: 20%;
+}
+.footerboxmenu{
+    width: 50%;
+    height:70%;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.footerboxmenuA{
+    width: 40%;
+    height:70%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footerboxmenuB{
+    width: 40%;
+    height:70%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.menu{
+    display: flex;
+}
+.magzine{
+
+    width: 45%;
+    height:70%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+

@@ -1,0 +1,121 @@
+.ourworldFirst{
+    width: 100%;
+    height: 40vh;
+    border: 1px solid black;
+    background-color: black;
+}
+nav{
+    width: 100vh;
+    
+    padding: 0 20%; 
+    text-align: right;
+}
+nav ul{
+   
+    width: 100vh;
+     margin-top: 10px; 
+     position: relative;
+    left: 70%;
+    color:white;
+
+     
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    color: white;
+    /* position: relative; */
+    /* left: 30%; */
+    
+}
+.ourworldFirstA{
+    width: 100%;
+    height: 55vh;
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+}
+.ourworldFirstAA{
+    width: 100%;
+    height: 55vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+.ourworldFirstBoxA{
+    display: flex;
+    flex-direction: column;
+    
+    width: 30%;
+    height: 70%;
+
+}
+.images{
+    width: 370px;
+    height: 500px;
+
+}
+.bottombox
+{
+    
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:darkcyan;
+}
+.bottomboxone
+{
+    
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+.logo
+{
+    
+    position: relative;
+    top:20px;
+    left: 300px;
+    width: 60px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bottomboxtwo
+{
+   
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bottomboxthree
+{
+    
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bottomboxfour
+{
+    
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
